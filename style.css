@@ -246,8 +246,9 @@ section {
 .hamburger span {
   display: block;
   width: 26px;
-  height: 2px;
+  height: 3px;
   background: var(--gold);
+  border-radius: 2px;
   transition: all 0.3s;
 }
 .hamburger.active span:nth-child(1) {
@@ -284,9 +285,9 @@ section {
 }
 
 /* ── Drawer lateral (mobile) ──────────────────────────────── */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .hamburger {
-    display: flex;
+    display: flex !important;
   }
 
   .nav-links {
@@ -303,7 +304,7 @@ section {
     justify-content: center;
     align-items: flex-start;
     gap: 0;
-    padding: 5rem 2rem 2rem; /* padding-top amplo para o botão ✕ respirar */
+    padding: 5rem 2rem 5.5rem; /* padding-bottom limpa o botão WhatsApp fixo no rodapé */
     z-index: 1002; /* acima do navbar (1000) para cobrir o topo quando aberto */
     transform: translateX(110%);
     transition: transform 0.42s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -401,6 +402,16 @@ section {
       transparent
     );
     margin: 0.75rem 0;
+  }
+}
+
+/* ── Tablet hero & logo adjustments ──────────────────────── */
+@media (max-width: 960px) {
+  .hero {
+    padding: 6rem 1.5rem 4rem;
+  }
+  .navbar-logo img {
+    height: 50px;
   }
 }
 
@@ -651,6 +662,12 @@ section {
   }
   .especializacoes {
     grid-template-columns: 1fr;
+  }
+  .sobre-text {
+    text-align: center;
+  }
+  .especializacoes {
+    text-align: left;
   }
 }
 
@@ -1136,6 +1153,12 @@ section {
   }
   .mapa-wrapper {
     height: 300px;
+  }
+  .localizacao-info {
+    text-align: center;
+  }
+  .info-item {
+    justify-content: center;
   }
 }
 
