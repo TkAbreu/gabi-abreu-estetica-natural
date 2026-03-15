@@ -120,7 +120,7 @@ p {
   margin: 0 auto;
 }
 section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 /* Gold line decoration */
@@ -681,7 +681,7 @@ section {
     ============================================================ */
 .diferenciais {
   background: var(--bg-medium);
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 .diferenciais-header {
   text-align: center;
