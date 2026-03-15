@@ -1,0 +1,1926 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gabi Abreu Estética Natural — Tratamentos faciais e corporais com produtos 100% naturais, orgânicos e veganos em Taubaté, SP."
+    />
+    <title>Gabi Abreu — Estética Natural</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo/favicon.svg" />
+    <link rel="apple-touch-icon" href="./assets/logo/favicon.svg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS - Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <!-- ══ Google Analytics ══════════════════════════════════════════
+       SUBSTITUIR: trocar G-XXXXXXXXXX pelo seu ID do Google Analytics
+       Encontre em: analytics.google.com → Admin → Data Streams
+  ════════════════════════════════════════════════════════════════ -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+
+    <!-- ══ Meta Pixel ════════════════════════════════════════════════
+       SUBSTITUIR: trocar XXXXXXXXXXXXXXXX pelo seu Pixel ID
+       Encontre em: business.facebook.com → Events Manager → Pixels
+  ════════════════════════════════════════════════════════════════ -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js",
+      );
+      fbq("init", "450648716406340");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=450648716406340&ev=PageView&noscript=1"
+    /></noscript>
+  </head>
+  <body>
+    <!-- ══ NAVBAR ════════════════════════════════════════════════════ -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="navbar-inner">
+          <a href="#inicio" class="navbar-logo">
+            <img
+              src="./assets/logo/logo.png"
+              alt="Gabi Abreu Estética Natural"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'block';
+              "
+            />
+            <span class="logo-fallback">GABI ABREU</span>
+          </a>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="nav-links"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul
+            class="nav-links"
+            id="nav-links"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Menu de navegação"
+          >
+            <!-- Botão fechar drawer (visível só no mobile) -->
+            <li class="drawer-close-item">
+              <button
+                class="drawer-close-btn"
+                id="drawer-close"
+                aria-label="Fechar menu"
+              >
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+              </button>
+            </li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li>
+              <a
+                href="https://wa.me/5512982143105"
+                target="_blank"
+                rel="noopener"
+                class="nav-cta"
+                >Agendar</a
+              >
+            </li>
+            <!-- Rodapé do drawer -->
+            <li class="drawer-footer" aria-hidden="true">
+              <span class="drawer-footer-divider"></span>
+              <p class="drawer-footer-location">
+                ✦ Taubaté, SP<br />Estúdio Natália Antunes
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-backdrop" id="nav-backdrop"></div>
+
+    <!-- ══ HERO ══════════════════════════════════════════════════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1 class="hero-tagline reveal reveal-delay-2">
+          Estética <em>consciente</em><br />que transforma
+        </h1>
+
+        <div class="gold-line reveal reveal-delay-3"></div>
+
+        <p class="hero-subtitle reveal reveal-delay-3">
+          Tratamentos faciais e corporais com produtos 100% naturais, orgânicos
+          e veganos. Protocolos personalizados que respeitam o ritmo único da
+          sua pele.
+        </p>
+
+        <div class="hero-ctas reveal reveal-delay-4">
+          <a
+            href="https://wa.me/5512982143105"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              style="width: 18px; height: 18px"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn-outline">Ver Serviços</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+        >
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      </div>
+
+      <!-- Beam decorations -->
+      <div class="hero-beams" aria-hidden="true">
+        <div class="hero-beam"></div>
+        <div class="hero-beam"></div>
+        <div class="hero-beam"></div>
+      </div>
+
+      <!-- Float badges -->
+      <div class="hero-float-badge hero-float-badge-1" aria-hidden="true">
+        <span class="badge-dot"></span>100% Natural
+      </div>
+      <div class="hero-float-badge hero-float-badge-2" aria-hidden="true">
+        <span class="badge-dot"></span>Vegano & Orgânico
+      </div>
+      <div class="hero-float-badge hero-float-badge-3" aria-hidden="true">
+        <span class="badge-dot"></span>10+ Anos de Experiência
+      </div>
+      <div class="hero-float-badge hero-float-badge-4" aria-hidden="true">
+        <span class="badge-dot"></span>Pele Saudável
+      </div>
+    </section>
+
+    <!-- Divisor botânico -->
+    <div class="botanical-divider">
+      <svg viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+          x1="0"
+          y1="16"
+          x2="82"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+        <path
+          d="M92 7 Q101 1 106 16 Q111 1 120 7"
+          stroke="#C6A75E"
+          stroke-width="0.9"
+          stroke-opacity="0.7"
+          fill="none"
+        />
+        <path
+          d="M98 16 Q106 6 114 16"
+          stroke="#C6A75E"
+          stroke-width="0.6"
+          stroke-opacity="0.5"
+          fill="none"
+        />
+        <circle cx="106" cy="16" r="1.6" fill="#C6A75E" fill-opacity="0.65" />
+        <line
+          x1="130"
+          y1="16"
+          x2="220"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+      </svg>
+    </div>
+
+    <!-- ══ MARQUEE SERVIÇOS ════════════════════════════════════ -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <!-- Set 1 -->
+        <span class="marquee-item"
+          >Limpeza de Pele Natural<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Tratamento de Acne<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Rejuvenescimento Natural<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Clareamento de Manchas<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Peles Sensíveis<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Drenagem Linfática<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Massagem Relaxante<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Kit Home Care Natural<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Clareamento de Axilas<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Produtos Naturais<span class="marquee-sep">✦</span></span
+        >
+        <!-- Set 2 (duplicate for seamless loop) -->
+        <span class="marquee-item"
+          >Limpeza de Pele Natural<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Tratamento de Acne<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Rejuvenescimento Natural<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Clareamento de Manchas<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Peles Sensíveis<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Drenagem Linfática<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Massagem Relaxante<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Kit Home Care Natural<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Clareamento de Axilas<span class="marquee-sep">✦</span></span
+        >
+        <span class="marquee-item"
+          >Produtos Naturais<span class="marquee-sep">✦</span></span
+        >
+      </div>
+    </div>
+
+    <!-- ══ SOBRE ══════════════════════════════════════════════════════ -->
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-image reveal">
+            <!-- SUBSTITUIR: foto profissional da Gabi em assets/fotos/gabi-profissional.jpg -->
+            <img
+              src="./assets/fotosGabi/gabi.jpeg"
+              alt="Gabi Abreu — Esteticista Natural"
+              loading="lazy"
+            />
+            <div class="sobre-badge">
+              <strong>10+</strong>
+              anos de<br />experiência
+            </div>
+          </div>
+          <div class="sobre-text">
+            <span class="section-label reveal">Quem sou eu</span>
+            <h2 class="reveal reveal-delay-1">
+              Cuidado que nasce<br />da consciência
+            </h2>
+            <div
+              class="gold-line reveal reveal-delay-2"
+              style="margin-left: 0"
+            ></div>
+            <p class="reveal reveal-delay-2">
+              Minha trajetória na estética começou em 2015, em Recife, em um
+              centro de referência na cidade. Desde então, me dedico à constante
+              evolução — buscando especializações e formações para oferecer
+              sempre o melhor para a saúde da sua pele.
+            </p>
+            <p class="reveal reveal-delay-3">
+              Hoje atendo no
+              <strong style="color: var(--gold-light)"
+                >Estúdio Natália Antunes</strong
+              >, em Taubaté, ao lado da minha irmã, em um espaço pensado para o
+              seu bem-estar completo. Minha filosofia é simples: uma estética
+              consciente e respeitosa, que valoriza o equilíbrio da pele — sem
+              pressa, sem agressão.
+            </p>
+            <p class="reveal reveal-delay-3">
+              Utilizo exclusivamente produtos naturais, orgânicos e veganos em
+              todos os protocolos, combinados com aparelhos modernos que
+              potencializam resultados duradouros.
+            </p>
+            <div class="especializacoes reveal reveal-delay-4">
+              <div class="especializacao-item">Pele Sensível</div>
+              <div class="especializacao-item">Tratamento de Acne</div>
+              <div class="especializacao-item">Rejuvenescimento Natural</div>
+              <div class="especializacao-item">Clareamento Natural</div>
+              <div class="especializacao-item">Peelings Naturais</div>
+              <div class="especializacao-item">Protocolo Jaqueline Massaro</div>
+              <div class="especializacao-item">Protocolo Ceci Matos</div>
+              <div class="especializacao-item">Home Care Personalizado</div>
+            </div>
+            <div style="margin-top: 2.5rem" class="reveal reveal-delay-5">
+              <a
+                href="https://wa.me/5512982143105"
+                target="_blank"
+                rel="noopener"
+                class="btn-primary"
+              >
+                Agendar minha avaliação
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor botânico -->
+    <div
+      class="botanical-divider"
+      style="background: var(--bg-medium); padding: 0.4rem 0"
+    >
+      <svg viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+          x1="0"
+          y1="16"
+          x2="82"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+        <path
+          d="M92 7 Q101 1 106 16 Q111 1 120 7"
+          stroke="#C6A75E"
+          stroke-width="0.9"
+          stroke-opacity="0.7"
+          fill="none"
+        />
+        <circle cx="106" cy="16" r="1.6" fill="#C6A75E" fill-opacity="0.65" />
+        <line
+          x1="130"
+          y1="16"
+          x2="220"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+      </svg>
+    </div>
+
+    <!-- ══ DIFERENCIAIS ════════════════════════════════════════════════ -->
+    <section class="diferenciais">
+      <div class="container">
+        <div class="diferenciais-header">
+          <span class="section-label reveal">Por que escolher a Gabi</span>
+          <h2 class="reveal reveal-delay-1">Seus diferenciais</h2>
+        </div>
+        <div class="diferenciais-grid">
+          <div class="diferencial-card" data-aos="fade-right" data-aos-duration="600" data-aos-delay="0">
+            <div class="spotlight-overlay"></div>
+            <div class="diferencial-icon">🌿</div>
+            <h4>100% Natural</h4>
+            <p>
+              Produtos naturais, orgânicos e veganos em todas as etapas do
+              protocolo. Sem ingredientes agressivos à sua pele.
+            </p>
+          </div>
+          <div class="diferencial-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+            <div class="spotlight-overlay"></div>
+            <div class="diferencial-icon">✨</div>
+            <h4>Personalização Total</h4>
+            <p>
+              Cada atendimento começa com uma avaliação criteriosa da pele. Sem
+              protocolos genéricos — só o que funciona para você.
+            </p>
+          </div>
+          <div class="diferencial-card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+            <div class="spotlight-overlay"></div>
+            <div class="diferencial-icon">🏡</div>
+            <h4>Home Care Orientado</h4>
+            <p>
+              Orientação personalizada para manutenção dos resultados em casa.
+              Sua pele cuidada 24 horas por dia.
+            </p>
+          </div>
+          <div class="diferencial-card" data-aos="fade-right" data-aos-duration="600" data-aos-delay="0">
+            <div class="spotlight-overlay"></div>
+            <div class="diferencial-icon">⏳</div>
+            <h4>Resultados Duradouros</h4>
+            <p>
+              Protocolos que respeitam o ritmo da pele, entregando resultados
+              progressivos que se mantêm ao longo do tempo.
+            </p>
+          </div>
+          <div class="diferencial-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+            <div class="spotlight-overlay"></div>
+            <div class="diferencial-icon">🕯️</div>
+            <h4>Ambiente Terapêutico</h4>
+            <p>
+              Espaço climatizado, aromatizado e pensado para o seu bem-estar
+              completo. Um momento dedicado só a você.
+            </p>
+          </div>
+          <div class="diferencial-card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+            <div class="spotlight-overlay"></div>
+            <div class="diferencial-icon">🧴</div>
+            <h4>Kits Home Care</h4>
+            <p>
+              Kits personalizados com sabonete, hidratante e blends específicos
+              montados estrategicamente para a sua pele.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor botânico -->
+    <div
+      class="botanical-divider"
+      style="background: var(--bg-dark); padding: 0.4rem 0"
+    >
+      <svg viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+          x1="0"
+          y1="16"
+          x2="82"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+        <path
+          d="M92 7 Q101 1 106 16 Q111 1 120 7"
+          stroke="#C6A75E"
+          stroke-width="0.9"
+          stroke-opacity="0.7"
+          fill="none"
+        />
+        <circle cx="106" cy="16" r="1.6" fill="#C6A75E" fill-opacity="0.65" />
+        <line
+          x1="130"
+          y1="16"
+          x2="220"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+      </svg>
+    </div>
+
+    <!-- ══ SERVIÇOS ════════════════════════════════════════════════════ -->
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <div class="servicos-header">
+          <span class="section-label reveal">O que ofereço</span>
+          <h2 class="reveal reveal-delay-1">Serviços & Valores</h2>
+          <p
+            class="reveal reveal-delay-2"
+            style="
+              max-width: 480px;
+              margin: 0.8rem auto 0;
+              font-size: 0.88rem;
+              color: rgba(247, 245, 242, 0.58);
+            "
+          >
+            Todos os tratamentos incluem avaliação da pele e são realizados com
+            produtos 100% naturais, orgânicos e veganos.
+          </p>
+        </div>
+
+        <div class="tabs reveal">
+          <button class="tab-btn active" data-tab="faciais">Faciais</button>
+          <button class="tab-btn" data-tab="corporais">Corporais</button>
+          <button class="tab-btn" data-tab="pacotes">Pacotes</button>
+          <button class="tab-btn" data-tab="produtos">Produtos Naturais</button>
+        </div>
+
+        <!-- ── Faciais ── -->
+        <div class="tab-content active" id="tab-faciais">
+          <div class="servicos-grid">
+            <div class="servico-card" data-aos="fade-right" data-aos-duration="550" data-aos-delay="0">
+              <div class="servico-nome">Limpeza de Pele Natural</div>
+              <p class="servico-desc">
+                Limpeza profunda com produtos naturais que respeitam a barreira
+                da pele.
+              </p>
+              <div class="servico-preco">R$ 220</div>
+            </div>
+            <div class="servico-card" data-aos="fade-up" data-aos-duration="550" data-aos-delay="100">
+              <div class="servico-nome">Limpeza + Sessão de Retorno</div>
+              <p class="servico-desc">
+                Limpeza completa com sessão de retorno para potencializar os
+                resultados.
+              </p>
+              <div class="servico-preco">R$ 340</div>
+            </div>
+            <div class="servico-card" data-aos="fade-left" data-aos-duration="550" data-aos-delay="200">
+              <div class="servico-nome">Tratamento de Acne</div>
+              <p class="servico-desc">
+                Protocolo especializado para controle e tratamento da acne com
+                ativos naturais.
+              </p>
+              <div class="servico-preco">R$ 240</div>
+            </div>
+            <div class="servico-card" data-aos="fade-right" data-aos-duration="550" data-aos-delay="0">
+              <div class="servico-nome">Rejuvenescimento Natural</div>
+              <p class="servico-desc">
+                Protocolo anti-idade com ingredientes naturais que estimulam a
+                renovação celular.
+              </p>
+              <div class="servico-preco">R$ 240</div>
+            </div>
+            <div class="servico-card" data-aos="fade-up" data-aos-duration="550" data-aos-delay="100">
+              <div class="servico-nome">Clareamento de Manchas</div>
+              <p class="servico-desc">
+                Tratamento natural para redução de manchas e uniformização do
+                tom da pele.
+              </p>
+              <div class="servico-preco">R$ 240</div>
+            </div>
+            <div class="servico-card" data-aos="fade-left" data-aos-duration="550" data-aos-delay="200">
+              <div class="servico-nome">Peles Sensíveis</div>
+              <p class="servico-desc">
+                Protocolo especial para peles reativas, com ativos calmantes e
+                restauradores.
+              </p>
+              <div class="servico-preco">R$ 240</div>
+            </div>
+            <div class="servico-card" data-aos="fade-up" data-aos-duration="550" data-aos-delay="0">
+              <div class="servico-nome">Clareamento de Axilas</div>
+              <p class="servico-desc">
+                Tratamento natural para clareamento e uniformização da região
+                das axilas.
+              </p>
+              <div class="servico-preco">R$ 240</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Corporais ── -->
+        <div class="tab-content" id="tab-corporais">
+          <div class="servicos-grid">
+            <div class="servico-card" data-aos="fade-right" data-aos-duration="550" data-aos-delay="0">
+              <div class="servico-nome">Massagem Relaxante</div>
+              <p class="servico-desc">
+                Técnica completa de relaxamento profundo com óleos naturais.
+                Cuide da sua mente e do seu corpo.
+              </p>
+              <div class="servico-preco">R$ 150</div>
+            </div>
+            <div class="servico-card" data-aos="fade-left" data-aos-duration="550" data-aos-delay="100">
+              <div class="servico-nome">Drenagem Linfática</div>
+              <p class="servico-desc">
+                Técnica especializada para estimular o sistema linfático,
+                reduzir inchaços e melhorar a circulação.
+              </p>
+              <div class="servico-preco">R$ 150</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Pacotes ── -->
+        <div class="tab-content" id="tab-pacotes">
+          <h3 class="pacote-title reveal">
+            Pacotes Faciais
+            <span
+              style="
+                font-size: 1rem;
+                color: var(--gold-light);
+                font-style: italic;
+              "
+            >
+              com Kit Home Care Natural</span
+            >
+          </h3>
+          <p
+            class="reveal"
+            style="
+              text-align: center;
+              font-size: 0.83rem;
+              color: rgba(247, 245, 242, 0.55);
+              margin-bottom: 1.5rem;
+            "
+          >
+            Limpeza Natural de Acne · Rejuvenescimento Natural · Clareamento de
+            Manchas · Tratamento para Acne
+          </p>
+          <table class="pacote-table reveal reveal-delay-1">
+            <thead>
+              <tr>
+                <th>Sessões</th>
+                <th>Valor Total</th>
+                <th>Por sessão</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 Sessão</td>
+                <td class="price-col">R$ 240</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">R$ 240</td>
+              </tr>
+              <tr>
+                <td>3 Sessões</td>
+                <td class="price-col">R$ 875</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">
+                  R$ 292 / sessão
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  5 Sessões <span class="pacote-badge">Melhor valor</span>
+                </td>
+                <td class="price-col">R$ 1.197</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">
+                  R$ 239 / sessão
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="pacote-title reveal mt-2">
+            Pacotes Faciais
+            <span
+              style="
+                font-size: 1rem;
+                color: var(--gold-light);
+                font-style: italic;
+              "
+            >
+              sem Kit Home Care</span
+            >
+          </h3>
+          <table class="pacote-table reveal reveal-delay-1">
+            <thead>
+              <tr>
+                <th>Sessões</th>
+                <th>Valor Total</th>
+                <th>Por sessão</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 Sessão</td>
+                <td class="price-col">R$ 240</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">R$ 240</td>
+              </tr>
+              <tr>
+                <td>3 Sessões</td>
+                <td class="price-col">R$ 660</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">
+                  R$ 220 / sessão
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  5 Sessões <span class="pacote-badge">Melhor valor</span>
+                </td>
+                <td class="price-col">R$ 997</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">
+                  R$ 199 / sessão
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="pacote-title reveal mt-2">Pacotes Corporais</h3>
+          <p
+            class="reveal"
+            style="
+              text-align: center;
+              font-size: 0.83rem;
+              color: rgba(247, 245, 242, 0.55);
+              margin-bottom: 1.5rem;
+            "
+          >
+            Massagem Relaxante · Drenagem Linfática
+          </p>
+          <table
+            class="pacote-table reveal reveal-delay-1"
+            style="max-width: 580px; margin: 0 auto 2.5rem"
+          >
+            <thead>
+              <tr>
+                <th>Sessões</th>
+                <th>Valor Total</th>
+                <th>Por sessão</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 Sessão</td>
+                <td class="price-col">R$ 150</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">R$ 150</td>
+              </tr>
+              <tr>
+                <td>2 Sessões</td>
+                <td class="price-col">R$ 260</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">
+                  R$ 130 / sessão
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  4 Sessões <span class="pacote-badge">Melhor valor</span>
+                </td>
+                <td class="price-col">R$ 440</td>
+                <td style="color: rgba(247, 245, 242, 0.48)">
+                  R$ 110 / sessão
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- ── Produtos ── -->
+        <div class="tab-content" id="tab-produtos">
+          <div class="servicos-grid">
+            <div class="servico-card" data-aos="fade-right" data-aos-duration="550" data-aos-delay="0">
+              <div style="font-size: 1.8rem; margin-bottom: 0.9rem">🌸</div>
+              <div class="servico-nome">Hidratante Facial Personalizado</div>
+              <p class="servico-desc">
+                Formulado de acordo com a necessidade específica da sua pele.
+                Exclusivo e personalizado.
+              </p>
+              <div
+                class="servico-preco"
+                style="font-size: 1.1rem; color: var(--gold-light)"
+              >
+                Consulte o valor
+              </div>
+            </div>
+            <div class="servico-card" data-aos="fade-up" data-aos-duration="550" data-aos-delay="100">
+              <div style="font-size: 1.8rem; margin-bottom: 0.9rem">💧</div>
+              <div class="servico-nome">Blends de Óleos Vegetais</div>
+              <p class="servico-desc">
+                Blends de óleos vegetais e essenciais personalizados para
+                tratamento em casa.
+              </p>
+              <div
+                class="servico-preco"
+                style="font-size: 1.1rem; color: var(--gold-light)"
+              >
+                Consulte o valor
+              </div>
+            </div>
+            <div class="servico-card" data-aos="fade-left" data-aos-duration="550" data-aos-delay="200">
+              <div style="font-size: 1.8rem; margin-bottom: 0.9rem">🧼</div>
+              <div class="servico-nome">Sabonete Natural</div>
+              <p class="servico-desc">
+                Sabonetes naturais artesanais, cuidadosamente selecionados para
+                cada tipo de pele.
+              </p>
+              <!-- SUBSTITUIR: foto do sabonete em assets/fotos/sabonete-natural.jpg -->
+              <div
+                class="servico-preco"
+                style="font-size: 1.1rem; color: var(--gold-light)"
+              >
+                Consulte o valor
+              </div>
+            </div>
+          </div>
+          <p
+            class="reveal"
+            style="
+              text-align: center;
+              margin-top: 2rem;
+              font-size: 0.82rem;
+              color: rgba(247, 245, 242, 0.42);
+              font-style: italic;
+            "
+          >
+            * Fotos dos produtos em breve. Entre em contato para saber mais.
+          </p>
+        </div>
+
+        <div class="servicos-cta reveal">
+          <a
+            href="https://wa.me/5512982143105"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              style="width: 18px; height: 18px"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            Tirar dúvidas pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divisor botânico -->
+    <div class="botanical-divider">
+      <svg viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+          x1="0"
+          y1="16"
+          x2="82"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+        <path
+          d="M92 7 Q101 1 106 16 Q111 1 120 7"
+          stroke="#C6A75E"
+          stroke-width="0.9"
+          stroke-opacity="0.7"
+          fill="none"
+        />
+        <circle cx="106" cy="16" r="1.6" fill="#C6A75E" fill-opacity="0.65" />
+        <line
+          x1="130"
+          y1="16"
+          x2="220"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+      </svg>
+    </div>
+
+    <!-- ══ RESULTADOS ══════════════════════════════════════════════════ -->
+    <section class="resultados" id="resultados">
+      <div class="container">
+        <div class="resultados-header">
+          <span class="section-label reveal">Transformações reais</span>
+          <h2 class="reveal reveal-delay-1">Resultados das clientes</h2>
+          <p
+            class="reveal reveal-delay-2"
+            style="
+              max-width: 460px;
+              margin: 0.75rem auto 0;
+              font-size: 0.87rem;
+              color: rgba(247, 245, 242, 0.58);
+            "
+          >
+            Cada resultado é único, como cada pele. Tratamentos personalizados
+            com progressão natural e duradoura.
+          </p>
+        </div>
+
+        <div class="carousel reveal" id="resultados-carousel">
+          <div class="carousel-track" id="resultados-track">
+            <!-- SUBSTITUIR slides: coloque imagens reais em assets/resultados/
+             Exemplo de slide com foto real:
+             <div class="carousel-slide">
+               <div class="before-after">
+                 <div class="before-after-item">
+                   <span class="before-after-label">Antes</span>
+                   <img src="./assets/resultados/acne-antes-1.jpg" alt="Antes do tratamento">
+                 </div>
+                 <div class="before-after-item">
+                   <span class="before-after-label">Depois</span>
+                   <img src="./assets/resultados/acne-depois-1.jpg" alt="Depois do tratamento">
+                 </div>
+               </div>
+               <p class="carousel-caption">Tratamento de Acne — resultado após 3 sessões</p>
+             </div>
+        -->
+
+            <div class="carousel-slide">
+              <div class="resultado-placeholder">
+                <div class="placeholder-img">
+                  <span class="placeholder-label">Antes</span>
+                  <svg
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C6A75E"
+                    stroke-width="0.8"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  <span>Foto em breve</span>
+                </div>
+                <div class="placeholder-img">
+                  <span class="placeholder-label">Depois</span>
+                  <svg
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C6A75E"
+                    stroke-width="0.8"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  <span>Foto em breve</span>
+                </div>
+              </div>
+              <p class="carousel-caption">
+                Tratamento de Acne — resultado após 3 sessões
+              </p>
+            </div>
+
+            <div class="carousel-slide">
+              <div class="resultado-placeholder">
+                <div class="placeholder-img">
+                  <span class="placeholder-label">Antes</span>
+                  <svg
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C6A75E"
+                    stroke-width="0.8"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  <span>Foto em breve</span>
+                </div>
+                <div class="placeholder-img">
+                  <span class="placeholder-label">Depois</span>
+                  <svg
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C6A75E"
+                    stroke-width="0.8"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  <span>Foto em breve</span>
+                </div>
+              </div>
+              <p class="carousel-caption">
+                Rejuvenescimento Natural — resultado após 5 sessões
+              </p>
+            </div>
+
+            <div class="carousel-slide">
+              <div class="resultado-placeholder">
+                <div class="placeholder-img">
+                  <span class="placeholder-label">Antes</span>
+                  <svg
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C6A75E"
+                    stroke-width="0.8"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  <span>Foto em breve</span>
+                </div>
+                <div class="placeholder-img">
+                  <span class="placeholder-label">Depois</span>
+                  <svg
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#C6A75E"
+                    stroke-width="0.8"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  <span>Foto em breve</span>
+                </div>
+              </div>
+              <p class="carousel-caption">
+                Clareamento de Manchas — resultado progressivo
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-controls">
+            <button
+              class="carousel-btn"
+              id="resultados-prev"
+              aria-label="Anterior"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <div class="carousel-dots" id="resultados-dots">
+              <button class="carousel-dot active"></button>
+              <button class="carousel-dot"></button>
+              <button class="carousel-dot"></button>
+            </div>
+            <button
+              class="carousel-btn"
+              id="resultados-next"
+              aria-label="Próximo"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <p
+          class="reveal"
+          style="
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            color: rgba(247, 245, 242, 0.32);
+            font-style: italic;
+          "
+        >
+          * Fotos reais serão adicionadas em breve. Resultados individuais podem
+          variar.
+        </p>
+      </div>
+    </section>
+
+    <!-- Divisor botânico -->
+    <div
+      class="botanical-divider"
+      style="background: var(--bg-medium); padding: 0.4rem 0"
+    >
+      <svg viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+          x1="0"
+          y1="16"
+          x2="82"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+        <path
+          d="M92 7 Q101 1 106 16 Q111 1 120 7"
+          stroke="#C6A75E"
+          stroke-width="0.9"
+          stroke-opacity="0.7"
+          fill="none"
+        />
+        <circle cx="106" cy="16" r="1.6" fill="#C6A75E" fill-opacity="0.65" />
+        <line
+          x1="130"
+          y1="16"
+          x2="220"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+      </svg>
+    </div>
+
+    <!-- ══ DEPOIMENTOS ════════════════════════════════════════════════ -->
+    <section class="depoimentos" id="depoimentos">
+      <div class="container">
+        <div class="depoimentos-header">
+          <span class="section-label reveal">O que dizem as clientes</span>
+          <h2 class="reveal reveal-delay-1">Depoimentos</h2>
+        </div>
+
+        <div class="carousel reveal" id="depoimentos-carousel">
+          <div class="carousel-track" id="depoimentos-track">
+            <!-- SUBSTITUIR pelos depoimentos reais das clientes -->
+            <div class="carousel-slide">
+              <div class="depoimento-card">
+                <div class="depoimento-quote">"</div>
+                <p class="depoimento-texto">
+                  A Gabi é incrível! Minha pele estava horrível por causa da
+                  acne e depois de 3 sessões os resultados foram surpreendentes.
+                  O cuidado e atenção dela com cada detalhe é único. Super
+                  recomendo!
+                </p>
+                <div class="depoimento-autor">
+                  <div class="depoimento-avatar">A</div>
+                  <div>
+                    <div class="depoimento-nome">Ana Paula S.</div>
+                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-origem">Google · Taubaté, SP</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <div class="depoimento-card">
+                <div class="depoimento-quote">"</div>
+                <p class="depoimento-texto">
+                  Ambiente lindo, super acolhedor e a Gabi é extremamente
+                  profissional. Fiz o tratamento de rejuvenescimento e ficou
+                  maravilhoso. Os produtos naturais que ela usa fazem toda a
+                  diferença!
+                </p>
+                <div class="depoimento-autor">
+                  <div class="depoimento-avatar">M</div>
+                  <div>
+                    <div class="depoimento-nome">Marina C.</div>
+                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-origem">WhatsApp · Taubaté, SP</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <div class="depoimento-card">
+                <div class="depoimento-quote">"</div>
+                <p class="depoimento-texto">
+                  Minha pele nunca esteve tão bem! A Gabi fez uma avaliação
+                  completa antes de começar e o kit home care que ela montou foi
+                  perfeito. Resultado real e duradouro!
+                </p>
+                <div class="depoimento-autor">
+                  <div class="depoimento-avatar">C</div>
+                  <div>
+                    <div class="depoimento-nome">Carla F.</div>
+                    <div class="depoimento-stars">★★★★★</div>
+                    <div class="depoimento-origem">Google · Taubaté, SP</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-controls">
+            <button
+              class="carousel-btn"
+              id="depoimentos-prev"
+              aria-label="Anterior"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <div class="carousel-dots" id="depoimentos-dots">
+              <button class="carousel-dot active"></button>
+              <button class="carousel-dot"></button>
+              <button class="carousel-dot"></button>
+            </div>
+            <button
+              class="carousel-btn"
+              id="depoimentos-next"
+              aria-label="Próximo"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <p
+          class="reveal"
+          style="
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            color: rgba(247, 245, 242, 0.32);
+            font-style: italic;
+          "
+        >
+          * Depoimentos reais serão adicionados assim que os arquivos forem
+          enviados.
+        </p>
+      </div>
+    </section>
+
+    <!-- Divisor botânico -->
+    <div
+      class="botanical-divider"
+      style="background: var(--bg-dark); padding: 0.4rem 0"
+    >
+      <svg viewBox="0 0 220 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line
+          x1="0"
+          y1="16"
+          x2="82"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+        <path
+          d="M92 7 Q101 1 106 16 Q111 1 120 7"
+          stroke="#C6A75E"
+          stroke-width="0.9"
+          stroke-opacity="0.7"
+          fill="none"
+        />
+        <circle cx="106" cy="16" r="1.6" fill="#C6A75E" fill-opacity="0.65" />
+        <line
+          x1="130"
+          y1="16"
+          x2="220"
+          y2="16"
+          stroke="#C6A75E"
+          stroke-width="0.5"
+          stroke-opacity="0.4"
+        />
+      </svg>
+    </div>
+
+    <!-- ══ LOCALIZAÇÃO ════════════════════════════════════════════════ -->
+    <section class="localizacao" id="localizacao">
+      <div class="container">
+        <div class="localizacao-header">
+          <span class="section-label reveal">Onde me encontrar</span>
+          <h2 class="reveal reveal-delay-1">Localização</h2>
+        </div>
+
+        <div class="localizacao-grid">
+          <div class="mapa-wrapper reveal">
+            <!-- Mapa — endereço: Rua Dr. João Dias Cardoso Sobrinho, 453, Jardim Maria Augusta, Taubaté-SP -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.5!2d-45.5600!3d-23.0210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRua+Dr.+Jo%C3%A3o+Dias+Cardoso+Sobrinho%2C+453%2C+Jardim+Maria+Augusta%2C+Taubat%C3%A9+-+SP!5e0!3m2!1spt-BR!2sbr!4v1"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Estúdio Natália Antunes — Taubaté SP"
+            >
+            </iframe>
+          </div>
+
+          <div class="localizacao-info">
+            <span class="section-label reveal">Estúdio Natália Antunes</span>
+            <h3 class="reveal reveal-delay-1">Vem me visitar</h3>
+            <div
+              class="gold-line reveal reveal-delay-2"
+              style="margin-left: 0"
+            ></div>
+
+            <div class="info-item reveal reveal-delay-2">
+              <div class="info-icon">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div class="info-text">
+                <strong>Endereço</strong>
+                Rua Doutor João Dias Cardoso Sobrinho, nº 453<br />
+                Jardim Maria Augusta — Taubaté, SP
+              </div>
+            </div>
+
+            <div class="info-item reveal reveal-delay-3">
+              <div class="info-icon">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 12.13 19.79 19.79 0 01-.07 3.46a2 2 0 011.87-2.18h3a2 2 0 012 1.72c.127.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.09 9.19a16 16 0 006.72 6.72l1.06-1.06a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                  />
+                </svg>
+              </div>
+              <div class="info-text">
+                <strong>Agendamentos</strong>
+                Exclusivamente pelo WhatsApp<br />
+                <a
+                  href="https://wa.me/5512982143105"
+                  style="color: var(--gold); transition: opacity 0.3s"
+                  onmouseover="this.style.opacity = '.7'"
+                  onmouseout="this.style.opacity = '1'"
+                >
+                  (12) 98214-3105
+                </a>
+              </div>
+            </div>
+
+            <div class="info-item reveal reveal-delay-4">
+              <div class="info-icon">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12,6 12,12 16,14" />
+                </svg>
+              </div>
+              <div class="info-text">
+                <strong>Agendamento</strong>
+                Agendamento prévio necessário.<br />
+                Entre em contato para verificar a disponibilidade.
+              </div>
+            </div>
+
+            <div class="reveal reveal-delay-5" style="margin-top: 2rem">
+              <a
+                href="https://wa.me/5512982143105"
+                target="_blank"
+                rel="noopener"
+                class="btn-primary"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  style="width: 18px; height: 18px"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                  />
+                </svg>
+                Quero agendar minha sessão
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ FOOTER ═════════════════════════════════════════════════════ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <!-- SUBSTITUIR: logo já copiada para assets/logo/logo.png -->
+            <img
+              src="./assets/logo/logo.png"
+              alt="Gabi Abreu Estética Natural"
+              onerror="this.style.display = 'none'"
+            />
+            <p>
+              Estética consciente e respeitosa, que valoriza o equilíbrio da
+              pele. Produtos 100% naturais, orgânicos e veganos em todos os
+              protocolos.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/gabiabreu_estetica/"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                aria-label="Instagram"
+              >
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/gabiabreuestetica"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                aria-label="Facebook"
+              >
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://wa.me/5512982143105"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                aria-label="WhatsApp"
+              >
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <ul class="footer-links">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#resultados">Resultados</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li><a href="#localizacao">Localização</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://wa.me/5512982143105"
+                  target="_blank"
+                  rel="noopener"
+                  >(12) 98214-3105</a
+                >
+              </li>
+              <li>Taubaté — SP</li>
+              <li>Estúdio Natália Antunes</li>
+              <li style="margin-top: 1rem">
+                <a
+                  href="https://www.instagram.com/gabiabreu_estetica/"
+                  target="_blank"
+                  rel="noopener"
+                  >@gabiabreu_estetica</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/gabiabreuestetica"
+                  target="_blank"
+                  rel="noopener"
+                  >gabiabreuestetica</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          © 2025 Gabi Abreu Estética Natural — Taubaté, SP. Todos os direitos
+          reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!-- ══ STICKY CTA BAR ════════════════════════════════════════ -->
+    <div
+      class="sticky-cta-bar"
+      id="sticky-cta"
+      role="complementary"
+      aria-label="Agendar sessão"
+    >
+      <div class="sticky-cta-text">
+        Sua pele merece cuidado consciente
+        <small>Produtos 100% naturais · Taubaté, SP</small>
+      </div>
+      <div class="sticky-cta-socials">
+        <a
+          href="https://www.instagram.com/gabiabreu_estetica/"
+          target="_blank"
+          rel="noopener"
+          class="sticky-social-link"
+          aria-label="Instagram"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+          <span>@gabiabreu_estetica</span>
+        </a>
+        <a
+          href="https://www.facebook.com/gabiabreuestetica"
+          target="_blank"
+          rel="noopener"
+          class="sticky-social-link"
+          aria-label="Facebook"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <path
+              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+            />
+          </svg>
+          <span>gabiabreuestetica</span>
+        </a>
+      </div>
+      <button
+        class="sticky-cta-close"
+        id="sticky-cta-close"
+        aria-label="Fechar"
+      >
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M18 6L6 18M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- ══ WHATSAPP FLUTUANTE ═════════════════════════════════════════ -->
+    <a
+      href="https://wa.me/5512982143105"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar pelo WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </svg>
+      <span>Agendar agora</span>
+    </a>
+
+    <!-- ══ JAVASCRIPT ═════════════════════════════════════════════════ -->
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      // ── AOS Init ───────────────────────────────────────────────
+      AOS.init({
+        duration: 750,
+        easing: "ease-out-cubic",
+        once: true,
+        offset: 40,
+      });
+
+      // ── Scroll Reveal (keep for elements already using .reveal) ─
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -36px 0px" },
+      );
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => revealObserver.observe(el));
+
+      // ── Navbar scroll ──────────────────────────────────────────────
+      const navbar = document.getElementById("navbar");
+      window.addEventListener(
+        "scroll",
+        () => {
+          navbar.classList.toggle("scrolled", window.scrollY > 55);
+        },
+        { passive: true },
+      );
+
+      // ── Mobile drawer ───────────────────────────────────────────────
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+      const backdrop = document.getElementById("nav-backdrop");
+      const drawerClose = document.getElementById("drawer-close");
+
+      // Elementos focalizáveis dentro do drawer para o trap de foco
+      function getFocusableDrawerElements() {
+        return Array.from(
+          navLinks.querySelectorAll(
+            'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+          ),
+        );
+      }
+
+      function openDrawer() {
+        hamburger.classList.add("active");
+        hamburger.setAttribute("aria-expanded", "true");
+        hamburger.setAttribute("aria-label", "Fechar menu");
+        navLinks.classList.add("open");
+        backdrop.classList.add("open");
+        document.body.style.overflow = "hidden";
+        // Mover foco para o primeiro elemento interativo do drawer
+        const focusable = getFocusableDrawerElements();
+        if (focusable.length) focusable[0].focus();
+      }
+
+      function closeDrawer() {
+        hamburger.classList.remove("active");
+        hamburger.setAttribute("aria-expanded", "false");
+        hamburger.setAttribute("aria-label", "Abrir menu");
+        navLinks.classList.remove("open");
+        backdrop.classList.remove("open");
+        document.body.style.overflow = "";
+        // Devolver foco ao botão que abriu o drawer
+        hamburger.focus();
+      }
+
+      // Trap de foco: mantém Tab e Shift+Tab dentro do drawer enquanto aberto
+      navLinks.addEventListener("keydown", (e) => {
+        if (e.key !== "Tab") return;
+        const focusable = getFocusableDrawerElements();
+        if (!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      });
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.contains("open") ? closeDrawer() : openDrawer();
+      });
+
+      drawerClose.addEventListener("click", closeDrawer);
+      backdrop.addEventListener("click", closeDrawer);
+
+      navLinks.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeDrawer);
+      });
+
+      // Fechar com Esc apenas quando o drawer está aberto
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && navLinks.classList.contains("open")) {
+          closeDrawer();
+        }
+      });
+
+      // Garantir que body.overflow não vaze ao redimensionar para desktop
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 768 && navLinks.classList.contains("open")) {
+          closeDrawer();
+        }
+      });
+
+      // ── Tabs ───────────────────────────────────────────────────────
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".tab-btn")
+            .forEach((b) => b.classList.remove("active"));
+          document
+            .querySelectorAll(".tab-content")
+            .forEach((c) => c.classList.remove("active"));
+          btn.classList.add("active");
+          document
+            .getElementById("tab-" + btn.dataset.tab)
+            .classList.add("active");
+        });
+      });
+
+      // ── Carousel ───────────────────────────────────────────────────
+      function initCarousel(prefix, autoplayMs) {
+        const track = document.getElementById(prefix + "-track");
+        const dots = document.querySelectorAll(
+          "#" + prefix + "-dots .carousel-dot",
+        );
+        const slides = track.querySelectorAll(".carousel-slide");
+        let current = 0;
+        let timer;
+
+        function goTo(index) {
+          current = ((index % slides.length) + slides.length) % slides.length;
+          track.style.transform = `translateX(-${current * 100}%)`;
+          dots.forEach((d, i) => d.classList.toggle("active", i === current));
+        }
+
+        function startAuto() {
+          timer = setInterval(() => goTo(current + 1), autoplayMs || 5000);
+        }
+        function stopAuto() {
+          clearInterval(timer);
+        }
+
+        document
+          .getElementById(prefix + "-prev")
+          .addEventListener("click", () => {
+            stopAuto();
+            goTo(current - 1);
+            startAuto();
+          });
+        document
+          .getElementById(prefix + "-next")
+          .addEventListener("click", () => {
+            stopAuto();
+            goTo(current + 1);
+            startAuto();
+          });
+        dots.forEach((dot, i) =>
+          dot.addEventListener("click", () => {
+            stopAuto();
+            goTo(i);
+            startAuto();
+          }),
+        );
+        startAuto();
+      }
+
+      initCarousel("resultados", 6000);
+      initCarousel("depoimentos", 5000);
+
+      // ── Smooth scroll ──────────────────────────────────────────────
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target)
+            window.scrollTo({ top: target.offsetTop - 76, behavior: "smooth" });
+        });
+      });
+
+      // ── Spotlight Cards ────────────────────────────────────────────
+      document.querySelectorAll(".diferencial-card").forEach((card) => {
+        card.addEventListener("mousemove", (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = ((e.clientX - rect.left) / rect.width) * 100;
+          const y = ((e.clientY - rect.top) / rect.height) * 100;
+          card.style.setProperty("--sx", x + "%");
+          card.style.setProperty("--sy", y + "%");
+        });
+      });
+
+      // ── Sticky CTA Bar ─────────────────────────────────────────────
+      const stickyBar = document.getElementById("sticky-cta");
+      const stickyClose = document.getElementById("sticky-cta-close");
+      const heroSection = document.getElementById("inicio");
+      const footerEl = document.querySelector(".footer");
+      let stickyClosed = false;
+
+      stickyClose.addEventListener("click", () => {
+        stickyClosed = true;
+        stickyBar.classList.remove("visible");
+      });
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (stickyClosed) return;
+          const scrollY = window.scrollY;
+          const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+          const footerTop = footerEl.getBoundingClientRect().top + scrollY;
+          const nearFooter = scrollY + window.innerHeight > footerTop - 80;
+
+          if (scrollY > heroBottom * 0.65 && !nearFooter) {
+            stickyBar.classList.add("visible");
+          } else {
+            stickyBar.classList.remove("visible");
+          }
+        },
+        { passive: true },
+      );
+    </script>
+  </body>
+</html>
