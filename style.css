@@ -774,6 +774,14 @@ section {
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   gap: 1.15rem;
 }
+#tab-corporais .servicos-grid {
+  max-width: 600px;
+  margin-inline: auto;
+}
+#tab-produtos .servicos-grid {
+  max-width: 900px;
+  margin-inline: auto;
+}
 .servico-card {
   background: rgba(107, 140, 116, 0.05);
   border: 1px solid rgba(198, 167, 94, 0.09);
